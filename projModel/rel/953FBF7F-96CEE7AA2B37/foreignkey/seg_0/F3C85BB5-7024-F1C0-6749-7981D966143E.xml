@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3C85BB5-7024-F1C0-6749-7981D966143E" containerWithKeyObject="845A7514-FCEE-C878-11C1-5C43DF29EEC1" localFKIndex="134E2A56-404E-96F1-E082-018760A41526" name="jeAdmin_Pripada_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>123F1D19-778B-BA9B-8ABF-500B264C8DEF</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Pripada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD8E3FB4-3682-08D4-F983-6D9B1A6EC3A4</referredTableID>
+<keyObject>1A8B13AE-474E-9C98-629B-C6B6C0EF29DB</keyObject>
+<referredKeyID>1A8B13AE-474E-9C98-629B-C6B6C0EF29DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Korisnik_skr,Grupa_sgrupa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

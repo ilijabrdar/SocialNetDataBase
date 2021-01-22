@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0EE9F50-452F-1FAA-AA6D-4B71CE382F7A" name="Komentar">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>CDAE3DB5-B915-CF70-A1FE-2BC82FB76365</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skom" id="F535C4B9-5415-B650-A4E1-6F74E48C0834">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>92E0B864-7877-F7AC-DCFE-0221A1B458E2</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dkom" id="14178A2F-0989-8D4E-FF90-758C9AA9A731">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>47B545BF-BF38-DD7B-6F61-7555649FAE95</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sdrkom" id="964A5515-728B-E5B0-6BCD-D44941F83EED">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>651ADB9F-1FE0-A456-6F2A-3AF72AED9B3C</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skr" id="93308DEA-BF47-AE1E-8862-99B7AC6014DF">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>834A0BFF-B2F0-CA04-20A2-C97233DAB76C</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DEA2746-90A9-6A68-4BCC-CB5FFE334676" referredColumn="DA7B297D-BA32-3591-1A3C-43D3FD149167"/>
+</associations>
+</Column>
+<Column name="skr_prat" id="754D60C9-ED4F-7A54-C7F3-07F209152250">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>E32855E8-E552-4985-AD4B-7DC7434DA819</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41077152-D67E-11CE-964F-2DEF6447F786" referredColumn="476C54E4-48F7-0E98-5FBA-97148D42BBF8"/>
+<colAssociation fkAssociation="5DEA2746-90A9-6A68-4BCC-CB5FFE334676" referredColumn="3021EABD-8319-7D43-D457-580B09BF78DD"/>
+</associations>
+</Column>
+<Column name="spost" id="D93787AA-6B8E-FE5F-CD8A-40F4EAF29973">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>165FAB2A-1B87-31CA-30D6-5BABBE4E8461</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41077152-D67E-11CE-964F-2DEF6447F786" referredColumn="8745A326-9AB3-6F28-568F-4234A9ACA8AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB4DFF2C-43E2-D946-5808-158B1AE6B2B7" name="Komentar_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>C8CFBBC4-120C-4697-DC36-5E9DDD62027D</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F535C4B9-5415-B650-A4E1-6F74E48C0834"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67BB243F-F1AF-6B20-7EF4-68CFA08EC5A0" name="Komentar_Prati_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>99EEF9A7-6870-FEA3-77FD-6A52AB628EF2</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93308DEA-BF47-AE1E-8862-99B7AC6014DF"/>
+<colUsage columnID="754D60C9-ED4F-7A54-C7F3-07F209152250"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2EEB5AE-E134-1270-9F88-0091BA0ACA26" name="Komentar_Post_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>6A7968CF-FB77-F2C9-9D90-54EAB95E816B</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93787AA-6B8E-FE5F-CD8A-40F4EAF29973"/>
+<colUsage columnID="754D60C9-ED4F-7A54-C7F3-07F209152250"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

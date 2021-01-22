@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0AA971F-DAA1-3389-9CC0-D337111A8E90" name="Prati">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>31C7D23D-2BBB-713D-16A4-93F889CB0F2B</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skr" id="DA7B297D-BA32-3591-1A3C-43D3FD149167">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>EEA1020B-1F33-1B62-D456-CE0C0BFF3B33</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C7E0BAA-566D-5931-A741-9CD54D79DB62" referredColumn="4B24ECE8-1858-8D4A-6E0E-D2ED23FDF050"/>
+</associations>
+</Column>
+<Column name="skr_prat" id="3021EABD-8319-7D43-D457-580B09BF78DD">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>E0AFCCE6-8465-3564-1BBB-70506E9EE9D0</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="153AC65A-C850-D8AB-5045-2FF1E25BF25C" referredColumn="4B24ECE8-1858-8D4A-6E0E-D2ED23FDF050"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFF5B4CC-B448-8B26-19E6-6B62CC58E6FF" name="Prati_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>4ECA1286-DE09-1DF2-6F12-6E5F57E63199</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7B297D-BA32-3591-1A3C-43D3FD149167"/>
+<colUsage columnID="3021EABD-8319-7D43-D457-580B09BF78DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9F7CF1F-BBCC-4EF2-8F37-0E3A213408BA" name="Prati_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>9FB3D6AF-2CE3-99BB-9D82-280A24717295</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7B297D-BA32-3591-1A3C-43D3FD149167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9A458E2-42EF-A2B7-33E1-D74871F7B829" name="Prati_Korisnik_FKv2">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>F2837F9B-F349-D7E2-D0E3-987B7AA213AF</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3021EABD-8319-7D43-D457-580B09BF78DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

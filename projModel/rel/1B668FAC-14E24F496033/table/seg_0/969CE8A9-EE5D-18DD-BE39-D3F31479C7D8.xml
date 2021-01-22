@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="969CE8A9-EE5D-18DD-BE39-D3F31479C7D8" name="Tema">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>E5FAA2B2-E322-7EE5-6E0A-8DD8CE2AB5EA</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stema" id="A1909F70-FCA3-DB08-4EFB-200E19C18854">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>B8EEEF30-3624-FF11-1FC4-52AB041DC889</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naztema" id="094A2034-D847-B29E-8CB9-52226760748B">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>E48DB61A-DCB9-AD9B-5EE8-85FBEB12199F</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D500FBF2-7F38-E70A-C352-1BC55FC5C38C" name="Tema_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>F9C77084-B768-24A9-3E40-3A733B13B61D</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1909F70-FCA3-DB08-4EFB-200E19C18854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

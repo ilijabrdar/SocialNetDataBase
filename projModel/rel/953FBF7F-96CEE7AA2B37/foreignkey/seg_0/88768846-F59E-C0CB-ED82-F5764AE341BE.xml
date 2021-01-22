@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88768846-F59E-C0CB-ED82-F5764AE341BE" containerWithKeyObject="A5A35372-2950-1F0F-7A97-84B5DA775E7A" localFKIndex="8C5FB5BA-9ECE-1432-4284-68AC07A70B9C" name="FanStranica_Neverifikovan_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<generatorID>ED966918-2A7C-09DB-213A-857B6036F432</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Neverifikovan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B25C95F4-F67F-4FB4-0989-01CB56BB72B8</referredTableID>
+<keyObject>1AABB1F8-8921-C266-341E-F515070C8188</keyObject>
+<referredKeyID>1AABB1F8-8921-C266-341E-F515070C8188</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>skr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

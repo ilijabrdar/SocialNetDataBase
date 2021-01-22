@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sponzorise" directorySegmentName="seg_0" id="64DBB686-A57B-92F1-EAEA-905411A604CC">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 20:32:31 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>957AA257-8959-1EC0-3BE2-BC5C7217FCAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7217EF65-CF8A-9CA9-6665-E2743882C7D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cenaspon" id="5077409B-B853-D99E-0917-C3C54FDA334E">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 21:11:22 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

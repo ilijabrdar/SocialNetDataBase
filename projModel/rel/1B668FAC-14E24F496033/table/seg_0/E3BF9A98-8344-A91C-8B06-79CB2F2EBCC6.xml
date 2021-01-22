@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3BF9A98-8344-A91C-8B06-79CB2F2EBCC6" name="FanStranica">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>957AA257-8959-1EC0-3BE2-BC5C7217FCAC</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sfs" id="9DDE48CF-5A34-D7D6-CEAC-E17DE785FB7A">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>83C5015A-B98A-B18F-D403-3883A1CE470B</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fopis" id="59DA141C-F4BF-B13A-7C20-85AE9E169022">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>1FE073ED-B1AC-9DCF-FCA6-01C6BF36294C</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fnaziv" id="5958DECD-C1E0-2850-1BFB-6048AA83B966">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>0AEBCE03-6FD9-AF96-9BE4-9476C9011B54</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dfs" id="6B776629-A19B-4975-3C8D-43F83C278F69">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>33B474C6-66A3-0AC5-A2F9-438B937A4D8F</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skr" id="B547920C-B129-4B70-8143-ABAE452189F2">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>C34AB669-2267-0392-E26D-1EECCD2C9FA4</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="956EC043-B3F3-A6B4-3D1F-FE505657844A" referredColumn="8A32AC0F-24AD-5D59-72BC-9A2FF1C86AB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61F1A21C-D47D-04D5-B1BC-388B63D8461C" name="FanStranica_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>0ACA4685-0C8A-788D-E58A-25CBA0DB1444</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DDE48CF-5A34-D7D6-CEAC-E17DE785FB7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26B296B1-6D78-9F0A-2C49-E17175D12436" name="FanStranica_Neverifikovan_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:36 UTC</createdTime>
+<generatorID>ED966918-2A7C-09DB-213A-857B6036F432</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B547920C-B129-4B70-8143-ABAE452189F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

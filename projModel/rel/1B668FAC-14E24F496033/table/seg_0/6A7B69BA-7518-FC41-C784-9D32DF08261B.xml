@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A7B69BA-7518-FC41-C784-9D32DF08261B" name="Pripada">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>F64FFB6B-5499-18A1-E37E-BDC965FACA5D</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skr" id="BBBEE5B4-D81B-75F9-E705-5014C27F642A">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>FEFF92E5-6317-6E5D-B75C-46D0E0BD0FEE</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F18F75C5-03E8-7098-05B7-FD5836AFE0A7" referredColumn="4B24ECE8-1858-8D4A-6E0E-D2ED23FDF050"/>
+</associations>
+</Column>
+<Column name="sgrupa" id="1B9DD7F3-8E82-8EB8-396C-F0F29D526621">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>D05B4AF8-3658-AB01-2B7B-5110D16ADDA1</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="180AEC87-8278-0BA8-5CE1-4279CEC703CB" referredColumn="F9CE04C1-213C-06C0-1409-54044998B0D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB677E55-52EE-E6EF-851C-053D6103AC1B" name="Pripada_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>5BC5D2B2-D453-B7F1-0B8D-86BB6791EBB2</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBEE5B4-D81B-75F9-E705-5014C27F642A"/>
+<colUsage columnID="1B9DD7F3-8E82-8EB8-396C-F0F29D526621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="901256CD-DEA4-9865-C595-455DD0D2B757" name="Pripada_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>9C6A71FC-4314-C0B9-5334-70937515C18C</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBEE5B4-D81B-75F9-E705-5014C27F642A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F28A1377-5117-169F-BD04-9F15BF505327" name="Pripada_Grupa_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>9C30C7BA-7327-DA7D-3638-13B892050F07</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B9DD7F3-8E82-8EB8-396C-F0F29D526621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

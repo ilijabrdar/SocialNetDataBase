@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67D7B901-FB5B-A49E-F363-6C05928299BB" name="kupuje">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="spro" id="03088BEE-9F7D-DF9E-018A-5454E937B7D3">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ADCDAF7-3F6B-4ED5-A547-ED5B2EBEFD38" referredColumn="742E73C9-652F-0386-DDBD-7A6456F48A6D"/>
+</associations>
+</Column>
+<Column name="skr_pro" id="32BADE6D-68FA-C15E-CA18-10781731F2EE">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ADCDAF7-3F6B-4ED5-A547-ED5B2EBEFD38" referredColumn="A047443E-495A-BC6E-16AA-B364D430D80D"/>
+</associations>
+</Column>
+<Column name="skr" id="A7A26285-C635-9CF5-3357-3DBC285958C3">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC62FDE9-B7C1-5EF8-BDF9-78E898A9DBA1" referredColumn="429D4EBB-2172-E31F-49D2-293AB1A29C53"/>
+</associations>
+</Column>
+<Column name="dkup" id="73ED48C1-036A-68BE-AC0A-9C2BE445BCDB">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>CF1F903D-100D-C119-5B96-E7BB2F375EAD</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="kolprod" id="267F98E5-A3B3-5B2C-58AB-83F9C435EC28">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>B95EB0CE-3F80-E0B0-2974-920FB8FF8771</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EF6169C-0158-4D04-02D2-ED4308729317" name="kupuje_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03088BEE-9F7D-DF9E-018A-5454E937B7D3"/>
+<colUsage columnID="32BADE6D-68FA-C15E-CA18-10781731F2EE"/>
+<colUsage columnID="A7A26285-C635-9CF5-3357-3DBC285958C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06601A60-F7CA-E1AF-0400-1AA0F5ADB96B" name="kupuje_Proizvod_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>3C5894F5-CA29-E10F-9CE8-4ABF4D254C22</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03088BEE-9F7D-DF9E-018A-5454E937B7D3"/>
+<colUsage columnID="32BADE6D-68FA-C15E-CA18-10781731F2EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59BF8F78-F846-E125-5595-27034EDBEC87" name="kupuje_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>3C5894F5-CA29-E10F-9CE8-4ABF4D254C22</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A26285-C635-9CF5-3357-3DBC285958C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

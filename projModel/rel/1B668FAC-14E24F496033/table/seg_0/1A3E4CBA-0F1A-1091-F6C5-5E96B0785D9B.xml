@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A3E4CBA-0F1A-1091-F6C5-5E96B0785D9B" name="Verifikovan">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>EF3CBAD0-3B33-7D5C-AC68-9216B8DD5CEE</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skr" id="88A0A886-2809-48ED-8C15-870E4BBA8CAA">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>062A6469-4734-ADCE-691F-D2DEF0B8B041</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5657C57-B34F-3BCC-C4AC-C4430EB88426" referredColumn="4B24ECE8-1858-8D4A-6E0E-D2ED23FDF050"/>
+</associations>
+</Column>
+<Column name="datver" id="A9248CBE-A9A6-4C20-8196-EB296ABC8140">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>86EAC201-4330-8F15-0D4B-353D3C31FA51</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4DD1424-6292-E5CE-5B61-4E5DBD015429" name="Verifikovan_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>DA9A6FEC-1665-3FFD-42A8-B097887B34D3</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A0A886-2809-48ED-8C15-870E4BBA8CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE800195-9346-71E7-26CF-81CB0A60135C" name="Verifikovan_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>F8461D50-617F-0FF5-AFA3-05440EC46518</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A0A886-2809-48ED-8C15-870E4BBA8CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

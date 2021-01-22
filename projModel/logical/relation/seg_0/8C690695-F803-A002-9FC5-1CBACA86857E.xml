@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lajkuje" directorySegmentName="seg_0" id="8C690695-F803-A002-9FC5-1CBACA86857E">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 19:58:00 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>138F9A17-F6CA-D6CF-819D-9A83BC2F05F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>113B275E-2590-B46F-1429-D3E3B3122606</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prati2" directorySegmentName="seg_0" id="F2837F9B-F349-D7E2-D0E3-987B7AA213AF">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 21:01:14 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<sourcePk>DA9A6FEC-1665-3FFD-42A8-B097887B34D3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>138F9A17-F6CA-D6CF-819D-9A83BC2F05F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31C7D23D-2BBB-713D-16A4-93F889CB0F2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

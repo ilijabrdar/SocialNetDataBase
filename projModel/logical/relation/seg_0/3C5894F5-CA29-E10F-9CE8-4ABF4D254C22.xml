@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kupuje" directorySegmentName="seg_0" id="3C5894F5-CA29-E10F-9CE8-4ABF4D254C22">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-19 16:39:47 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F2842E71-2E1D-B627-B145-44984009AAC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>138F9A17-F6CA-D6CF-819D-9A83BC2F05F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="dkup" id="CF1F903D-100D-C119-5B96-E7BB2F375EAD">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-19 16:41:25 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="kolprod" id="B95EB0CE-3F80-E0B0-2974-920FB8FF8771">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-19 16:41:42 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

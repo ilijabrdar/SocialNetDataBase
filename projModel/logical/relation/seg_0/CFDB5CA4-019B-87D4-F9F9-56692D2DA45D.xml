@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obuhvata" directorySegmentName="seg_0" id="CFDB5CA4-019B-87D4-F9F9-56692D2DA45D">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 20:56:37 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<sourcePk>5BC5D2B2-D453-B7F1-0B8D-86BB6791EBB2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F64FFB6B-5499-18A1-E37E-BDC965FACA5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>113B275E-2590-B46F-1429-D3E3B3122606</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

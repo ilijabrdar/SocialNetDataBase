@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31C7D23D-2BBB-713D-16A4-93F889CB0F2B" name="Prati">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 20:58:00 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="skr" id="EEA1020B-1F33-1B62-D456-CE0C0BFF3B33">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 20:58:28 UTC</createdTime>
+<generatorID>9FB3D6AF-2CE3-99BB-9D82-280A24717295</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<referedAttribute>062A6469-4734-ADCE-691F-D2DEF0B8B041</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skr_prat" id="E0AFCCE6-8465-3564-1BBB-70506E9EE9D0">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 21:01:14 UTC</createdTime>
+<generatorID>F2837F9B-F349-D7E2-D0E3-987B7AA213AF</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<referedAttribute>062A6469-4734-ADCE-691F-D2DEF0B8B041</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4ECA1286-DE09-1DF2-6F12-6E5F57E63199" name="Prati PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 21:00:50 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEA1020B-1F33-1B62-D456-CE0C0BFF3B33</attributeRef>
+<attributeRef>E0AFCCE6-8465-3564-1BBB-70506E9EE9D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

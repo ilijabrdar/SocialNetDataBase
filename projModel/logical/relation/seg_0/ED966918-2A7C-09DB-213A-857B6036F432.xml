@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stvara" directorySegmentName="seg_0" id="ED966918-2A7C-09DB-213A-857B6036F432">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 20:28:11 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<sourcePk>0ACA4685-0C8A-788D-E58A-25CBA0DB1444</sourcePk>
+<targetPk>DA9A6FEC-1665-3FFD-42A8-B097887B34D3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>957AA257-8959-1EC0-3BE2-BC5C7217FCAC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A3BA5EB9-463D-EAB8-5C12-129C856434B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

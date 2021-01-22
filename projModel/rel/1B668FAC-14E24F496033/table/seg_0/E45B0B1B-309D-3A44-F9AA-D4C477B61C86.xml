@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E45B0B1B-309D-3A44-F9AA-D4C477B61C86" name="jeAdmin">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skr" id="0ADF5B7B-4757-EEEB-209F-391A1B5AD517">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DE6C725-617C-04CF-FFD8-307020AA160B" referredColumn="BBBEE5B4-D81B-75F9-E705-5014C27F642A"/>
+</associations>
+</Column>
+<Column name="sgrupa" id="B616CC66-5223-8AB9-F173-15ACF921F8D1">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEDFD60C-9A50-3DA4-E64C-EC6F84C7D014" referredColumn="F9CE04C1-213C-06C0-1409-54044998B0D1"/>
+<colAssociation fkAssociation="8DE6C725-617C-04CF-FFD8-307020AA160B" referredColumn="1B9DD7F3-8E82-8EB8-396C-F0F29D526621"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D093E440-A392-1C9E-7B49-55421A6D946E" name="jeAdmin_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ADF5B7B-4757-EEEB-209F-391A1B5AD517"/>
+<colUsage columnID="B616CC66-5223-8AB9-F173-15ACF921F8D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="131AF0AD-3E33-19CE-F709-B5562ABE9A94" name="jeAdmin_Pripada_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>123F1D19-778B-BA9B-8ABF-500B264C8DEF</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ADF5B7B-4757-EEEB-209F-391A1B5AD517"/>
+<colUsage columnID="B616CC66-5223-8AB9-F173-15ACF921F8D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A1E794A-5201-29DC-38A9-9130EE4E4E49" name="jeAdmin_Grupa_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>123F1D19-778B-BA9B-8ABF-500B264C8DEF</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B616CC66-5223-8AB9-F173-15ACF921F8D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

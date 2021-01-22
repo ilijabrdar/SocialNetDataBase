@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F378BAD-4B1B-CE99-C080-B85B116A31E4" name="Lajkuje">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skr" id="8A9B81EA-6FD4-6D31-6B10-79079C787B13">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BA42512-9A67-8FC0-DB50-55E9D27D30EE" referredColumn="429D4EBB-2172-E31F-49D2-293AB1A29C53"/>
+</associations>
+</Column>
+<Column name="spost" id="3A5ABA96-E42B-5C69-04FA-F5C26088BA55">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47D2C752-2F08-2CFA-4A34-06E7F7DF924B" referredColumn="84EAE799-7AE6-AF7F-C0B3-730167712DA0"/>
+</associations>
+</Column>
+<Column name="skr_aut" id="C1FAF76B-8D60-F0B4-5FA1-8BFB7F6DF6F6">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47D2C752-2F08-2CFA-4A34-06E7F7DF924B" referredColumn="47057B2D-0276-9BA0-EC75-CFDC3270EF94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E54EE9AF-9452-0072-7EC1-9B6519A3F709" name="Lajkuje_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A9B81EA-6FD4-6D31-6B10-79079C787B13"/>
+<colUsage columnID="3A5ABA96-E42B-5C69-04FA-F5C26088BA55"/>
+<colUsage columnID="C1FAF76B-8D60-F0B4-5FA1-8BFB7F6DF6F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B7752BA-EB9A-E581-D12F-9F91BD92B4EF" name="Lajkuje_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>8C690695-F803-A002-9FC5-1CBACA86857E</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A9B81EA-6FD4-6D31-6B10-79079C787B13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A16E5DC-774D-F955-C1A6-5E14A69C429B" name="Lajkuje_Post_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>8C690695-F803-A002-9FC5-1CBACA86857E</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A5ABA96-E42B-5C69-04FA-F5C26088BA55"/>
+<colUsage columnID="C1FAF76B-8D60-F0B4-5FA1-8BFB7F6DF6F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

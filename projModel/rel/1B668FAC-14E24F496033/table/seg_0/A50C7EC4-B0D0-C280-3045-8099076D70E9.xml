@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A50C7EC4-B0D0-C280-3045-8099076D70E9" name="Post">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>113B275E-2590-B46F-1429-D3E3B3122606</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="spost" id="8745A326-9AB3-6F28-568F-4234A9ACA8AE">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>9FBD8E85-6830-3BC7-A4DD-43658374A6FB</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sdrpost" id="A73429E5-CB91-E9AF-7B25-527124FADA5F">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>B044610D-D38C-8110-4F1C-6F7CE9F611C7</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stema" id="61DF3EFB-5BF9-4FC6-949E-20F6604AEE8F">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>53FB2941-0EAA-DF04-33C9-92A1E2547227</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54C92F9A-B1D1-989B-8E14-A4064672FDE1" referredColumn="A1909F70-FCA3-DB08-4EFB-200E19C18854"/>
+</associations>
+</Column>
+<Column name="skr" id="476C54E4-48F7-0E98-5FBA-97148D42BBF8">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>ED1CE9D2-01B0-8BFE-1BEB-32024DCE394A</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A09368-2DDA-8F88-0696-18E795606F5D" referredColumn="4B24ECE8-1858-8D4A-6E0E-D2ED23FDF050"/>
+</associations>
+</Column>
+<Column name="sgrupa" id="E6BB410E-8B1A-A30B-EF3F-97B202AF56EA">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>D245163A-091E-B197-294F-626554D212EE</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F97EAA1-6B48-DFB5-BFD1-D54F9F754A5E" referredColumn="BBBEE5B4-D81B-75F9-E705-5014C27F642A"/>
+</associations>
+</Column>
+<Column name="dpost" id="C151D50C-8F49-A438-F22D-B9DFAC36B5F7">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>3169FA52-CD49-273A-A164-0B98A4932100</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBCBF629-CB4B-9BB6-C9CE-CDFA3F2D129B" name="Post_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>56C13F7A-C877-5C17-DDBE-E39DA2DD6FCA</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8745A326-9AB3-6F28-568F-4234A9ACA8AE"/>
+<colUsage columnID="476C54E4-48F7-0E98-5FBA-97148D42BBF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DB2C85C-E5F0-2FE8-058F-C92CB920B15B" name="Post_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>50827069-BEB4-4C40-BD85-08BE239AE8B4</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="476C54E4-48F7-0E98-5FBA-97148D42BBF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95F97493-F89C-0955-2217-4607B8F3332E" name="Post_Pripada_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>CFDB5CA4-019B-87D4-F9F9-56692D2DA45D</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6BB410E-8B1A-A30B-EF3F-97B202AF56EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250B9A42-3010-CD39-FC09-39E1D3F32222" name="Post_Tema_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>EC6D0369-2561-514A-D60B-DCF456D84B0E</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DF3EFB-5BF9-4FC6-949E-20F6604AEE8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

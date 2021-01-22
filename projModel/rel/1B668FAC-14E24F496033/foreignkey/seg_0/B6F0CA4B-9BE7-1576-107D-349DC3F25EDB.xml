@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6F0CA4B-9BE7-1576-107D-349DC3F25EDB" containerWithKeyObject="5DCA2AD7-EBE6-79C3-3326-A8BEA2F5625C" localFKIndex="73CC0B69-42CE-91FF-201F-6AB40E43D387" name="kupuje_Proizvod_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>3C5894F5-CA29-E10F-9CE8-4ABF4D254C22</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Proizvod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21F0FB66-C325-A26A-5813-264077AE434D</referredTableID>
+<keyObject>CB34DD73-9F6D-2390-1F52-3DF2EB4BA152</keyObject>
+<referredKeyID>CB34DD73-9F6D-2390-1F52-3DF2EB4BA152</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>spro,Verifikovan_skr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

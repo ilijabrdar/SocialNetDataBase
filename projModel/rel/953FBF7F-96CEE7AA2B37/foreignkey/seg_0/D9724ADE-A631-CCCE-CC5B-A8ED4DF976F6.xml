@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9724ADE-A631-CCCE-CC5B-A8ED4DF976F6" containerWithKeyObject="442433E5-52F9-FC97-F175-BBEEA5CB994C" localFKIndex="0D947DF5-D21B-18BA-29AA-12F3382A7CE3" name="Proizvod_Verifikovan_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<generatorID>7D41DE83-9B93-DB1B-8648-E3CB101C78E3</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Verifikovan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D00B90C-4A6F-1EC7-ACEB-00AFE1661C17</referredTableID>
+<keyObject>753720BD-7E9E-A937-B45A-047CCAF89CB8</keyObject>
+<referredKeyID>753720BD-7E9E-A937-B45A-047CCAF89CB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>skr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

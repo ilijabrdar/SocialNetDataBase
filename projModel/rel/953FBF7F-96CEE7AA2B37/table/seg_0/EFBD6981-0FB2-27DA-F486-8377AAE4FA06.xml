@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFBD6981-0FB2-27DA-F486-8377AAE4FA06" name="sponzorise">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sfs" id="234878B4-6DC7-662B-562A-55B8F5884F10">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="479ACB25-81B4-4D9A-13F4-2AA7B0170A89" referredColumn="A784635B-31B1-AB0F-0CBA-2F0C74A84522"/>
+</associations>
+</Column>
+<Column name="sspon" id="A7FE1DE4-8713-4B35-FEDD-931BC65931A1">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEB21F86-1C16-AD0A-A81C-615F55F75365" referredColumn="4E05DBC7-1243-970B-C02F-05E1C54884E2"/>
+</associations>
+</Column>
+<Column name="cenaspon" id="4C140B5B-3E69-67CD-E387-E45E83FFAC22">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<generatorID>5077409B-B853-D99E-0917-C3C54FDA334E</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E164AC0A-3ADC-4AA6-9D77-10297B20A9E9" name="sponzorise_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="234878B4-6DC7-662B-562A-55B8F5884F10"/>
+<colUsage columnID="A7FE1DE4-8713-4B35-FEDD-931BC65931A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04E88920-A2EB-791B-07DC-4885DA6B2B83" name="sponzorise_FanStranica_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<generatorID>64DBB686-A57B-92F1-EAEA-905411A604CC</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="234878B4-6DC7-662B-562A-55B8F5884F10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C286F38-0DAF-D109-F7B9-61E7C578F39D" name="sponzorise_Sponzor_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<generatorID>64DBB686-A57B-92F1-EAEA-905411A604CC</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7FE1DE4-8713-4B35-FEDD-931BC65931A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

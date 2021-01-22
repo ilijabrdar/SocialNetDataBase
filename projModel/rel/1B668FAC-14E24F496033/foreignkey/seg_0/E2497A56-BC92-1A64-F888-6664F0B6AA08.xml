@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2497A56-BC92-1A64-F888-6664F0B6AA08" containerWithKeyObject="146D844D-A5CB-9A77-A7AE-BF69208C41C1" localFKIndex="E12B0698-ABF0-EF9C-0AA1-E51CD7ED8ED0" name="sponzorise_FanStranica_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>64DBB686-A57B-92F1-EAEA-905411A604CC</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>FanStranica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3BF9A98-8344-A91C-8B06-79CB2F2EBCC6</referredTableID>
+<keyObject>61F1A21C-D47D-04D5-B1BC-388B63D8461C</keyObject>
+<referredKeyID>61F1A21C-D47D-04D5-B1BC-388B63D8461C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sfs</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

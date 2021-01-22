@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEDFD60C-9A50-3DA4-E64C-EC6F84C7D014" containerWithKeyObject="E45B0B1B-309D-3A44-F9AA-D4C477B61C86" localFKIndex="7A1E794A-5201-29DC-38A9-9130EE4E4E49" name="jeAdmin_Grupa_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>123F1D19-778B-BA9B-8ABF-500B264C8DEF</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Grupa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F2065FD-2A3D-A460-6EC7-8B5E9D55EE5B</referredTableID>
+<keyObject>E266B6A3-080D-4BFE-7A5D-95AA789AA32D</keyObject>
+<referredKeyID>E266B6A3-080D-4BFE-7A5D-95AA789AA32D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sgrupa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

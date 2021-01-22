@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47D2C752-2F08-2CFA-4A34-06E7F7DF924B" containerWithKeyObject="1F378BAD-4B1B-CE99-C080-B85B116A31E4" localFKIndex="2A16E5DC-774D-F955-C1A6-5E14A69C429B" name="Lajkuje_Post_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:19 UTC</createdTime>
+<generatorID>8C690695-F803-A002-9FC5-1CBACA86857E</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Post</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7CD53A8-063E-3E71-475D-6779A8E9BB32</referredTableID>
+<keyObject>05BC8A50-A5FF-386D-96CE-260AC19D3322</keyObject>
+<referredKeyID>05BC8A50-A5FF-386D-96CE-260AC19D3322</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>spost,Korisnik_skr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

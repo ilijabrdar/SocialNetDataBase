@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FEB21F86-1C16-AD0A-A81C-615F55F75365" containerWithKeyObject="EFBD6981-0FB2-27DA-F486-8377AAE4FA06" localFKIndex="5C286F38-0DAF-D109-F7B9-61E7C578F39D" name="sponzorise_Sponzor_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 22:37:20 UTC</createdTime>
+<generatorID>64DBB686-A57B-92F1-EAEA-905411A604CC</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<referredTableLongName>Sponzor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08ABD85D-459F-60C7-5298-9B2A2FE98C4E</referredTableID>
+<keyObject>D42BF6D3-E4D7-AC93-E21C-063A2E11F902</keyObject>
+<referredKeyID>D42BF6D3-E4D7-AC93-E21C-063A2E11F902</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sspon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

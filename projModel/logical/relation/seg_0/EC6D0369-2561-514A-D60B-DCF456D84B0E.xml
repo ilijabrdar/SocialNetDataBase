@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="seNalazi" directorySegmentName="seg_0" id="EC6D0369-2561-514A-D60B-DCF456D84B0E">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-17 18:58:09 UTC</createdTime>
+<ownerDesignName>projModel</ownerDesignName>
+<engineerTo>
+<item key="06DB3F6D-B87D-B0B4-F8EB-79AAB0B1B1E1" value="true"/>
+</engineerTo>
+<sourcePk>F9C77084-B768-24A9-3E40-3A733B13B61D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5FAA2B2-E322-7EE5-6E0A-8DD8CE2AB5EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>113B275E-2590-B46F-1429-D3E3B3122606</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

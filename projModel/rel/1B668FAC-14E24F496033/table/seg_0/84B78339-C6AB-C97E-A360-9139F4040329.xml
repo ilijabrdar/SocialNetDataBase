@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84B78339-C6AB-C97E-A360-9139F4040329" name="Neverifikovan">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>A3BA5EB9-463D-EAB8-5C12-129C856434B1</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skr" id="8A32AC0F-24AD-5D59-72BC-9A2FF1C86AB3">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>062A6469-4734-ADCE-691F-D2DEF0B8B041</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C99212D-EEDF-36A8-E53E-FA89096167D8" referredColumn="4B24ECE8-1858-8D4A-6E0E-D2ED23FDF050"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E3DB365-E374-E912-A84D-3350DB70DA1A" name="Neverifikovan_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>DA9A6FEC-1665-3FFD-42A8-B097887B34D3</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A32AC0F-24AD-5D59-72BC-9A2FF1C86AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="618F94FC-5EE4-0883-D4DD-D6CF871CD3E1" name="Neverifikovan_Korisnik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2021-01-20 20:37:35 UTC</createdTime>
+<generatorID>B4899788-3057-CAEC-1697-E8E4B96E4ABA</generatorID>
+<ownerDesignName>projModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A32AC0F-24AD-5D59-72BC-9A2FF1C86AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
